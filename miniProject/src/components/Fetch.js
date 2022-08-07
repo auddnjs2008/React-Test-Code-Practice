@@ -12,7 +12,7 @@ const mockFetch = () =>
   });
 
 const Fetch = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [result, setResult] = useState(null);
 
   useEffect(() => {

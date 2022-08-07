@@ -1,5 +1,8 @@
+import Profile from "./components/Profile";
+import TodoApp from "./components/ToDo/TodoApp";
+
 function App() {
-  return <div className="App"></div>;
+  return <TodoApp />;
 }
 
 export default App;
